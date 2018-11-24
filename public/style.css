@@ -1,0 +1,17 @@
+body  {
+background-color: rgb(89, 201, 89);
+}
+
+.card {
+  background-color: rgba(89, 201, 89, 0.454);
+
+}
+
+a {
+  color: rgb(89, 89, 89);
+}
+
+a:hover {
+  color: rgb(131, 131, 131);
+  text-decoration: wavy;
+}
