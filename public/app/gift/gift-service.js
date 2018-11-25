@@ -6,7 +6,6 @@ let api = axios.create({
 
 let _gifts = []
 
-
 export default class GiftService {
   getGifts(cb) {
     api.get('').then(res => {

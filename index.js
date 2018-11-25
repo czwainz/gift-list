@@ -13,7 +13,7 @@ server.use(bp.urlencoded({ extended: true }))
 let giftRoutes = require('./server-assets/routes/gift-routes')
 
 
-server.use("/api/gift", giftRoutes)
+server.use('/api/gift', giftRoutes)
 
 
 server.get('*', (req, res, next) => {
